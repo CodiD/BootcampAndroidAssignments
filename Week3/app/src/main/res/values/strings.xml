@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">New York für Dich</string>
+    <string name="title">New York für Dich</string>
+    <string name="logo">Logo</string>
+    <string name="button">Click for a daily tip</string>
+    <string name="textView">My favorite restaurant is little sheep in Queens</string>
+    <string name="nyfd_subheader">Explore New York on the 2nd sight</string>
+    <string name="weblink">www.newyorkfuerdich.com</string>
+    <string name="mail">Mail: info@newyorkfuerdich.com</string>
+
+
+</resources>
