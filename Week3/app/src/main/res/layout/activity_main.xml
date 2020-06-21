@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="@dimen/padding_standard"
+        app:srcCompat="@drawable/ente" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/container_size"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_standard">
+
+        <Button
+            android:id="@+id/b_tip"
+            style="@style/button_tip"
+            android:text="@string/button" />
+
+        <TextView
+            android:id="@+id/t_tip"
+            style="@style/text_tip"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/container_size"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/t_header"
+            style="@style/contacts"
+            android:text="@string/title"
+            />
+
+        <TextView
+            android:id="@+id/t_subheader"
+            style="@style/contacts"
+            android:text="@string/nyfd_subheader"
+            />
+
+        <TextView
+            android:id="@+id/t_weblink"
+            style="@style/contacts"
+            android:text="@string/weblink"
+            />
+
+        <TextView
+            android:id="@+id/t_email"
+            style="@style/contacts"
+            android:text="@string/mail"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
