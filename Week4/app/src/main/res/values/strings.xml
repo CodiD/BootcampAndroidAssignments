@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyMovieApp</string>
+    <string name="title">Me before you</string>
+    <string name="genre">Drama</string>
+    <string name="summary">summary</string>
+    <string name="movieimage">movieImage</string>
+    <string name="movieImage">movieImage</string>
+</resources>
