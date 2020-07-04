@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding = "@dimen/padding">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logo_detail_size"
+        android:contentDescription="@string/movieimage" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marignStart10"
+        android:layout_below="@+id/image"
+        android:textAlignment="center"
+        android:paddingTop="@dimen/padding"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="@dimen/text40" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:paddingTop="@dimen/padding">
+
+        <EditText
+            android:id="@+id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:inputType="textMultiLine"
+            android:paddingTop="15dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="@dimen/text30"
+            android:autofillHints="" />
+
+    </ScrollView>
+
+
+</RelativeLayout>
