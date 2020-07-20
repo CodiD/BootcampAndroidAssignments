@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "logo_size">150dp</dimen>
+    <dimen name = "logo_detail_size">250dp</dimen>
+    <dimen name = "padding">15dp</dimen>
+    <dimen name = "paddingDouble">30dp</dimen>
+    <dimen name = "marignStart">40dp</dimen>
+    <dimen name = "marignStart10">10dp</dimen>
+    <dimen name = "text20">20sp</dimen>
+    <dimen name = "text30">30sp</dimen>
+    <dimen name = "text40">40sp</dimen>
+
+
+</resources>
